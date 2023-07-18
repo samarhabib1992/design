@@ -1,0 +1,405 @@
+
+.bg-light {
+    background-color: #FFFFFF !important;
+}
+
+.border-right {
+    border-right: 1px solid #ECECED;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ECECED;
+}
+
+#wrapper #content-wrapper {
+    background-color: #FFFFFF;
+}
+
+.active {
+    background-color: rgba(231, 106, 50, 0.2);
+    border-radius: 0.8rem;
+    margin-right: 10px;
+   
+}
+
+@media (min-width: 768px) {
+    .sidebar .nav-item .nav-link {
+        padding: 0.55rem;
+    }
+}
+
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #1A202C;
+    background: #FAFAFA;
+    border-radius: 0.75rem;
+    height: 2.575rem;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #E76A32;
+    border-color: #E76A32;
+    border-radius: 0.5rem;
+}
+
+.page-link {
+
+    color: #1A202C;
+    border: none;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+    text-align: left;
+    float: left;
+}
+
+/* div.dataTables_wrapper div.dataTables_info {
+    float: right;
+} */
+
+.dataTables_length,
+.dataTables_paginate {
+    padding-top: 0.70rem;
+}
+
+.dataTables_paginate {
+    padding-top: 0.50rem;
+}
+
+/* .dataTables_length,
+.dataTables_paginate {
+    text-align: center !important;
+} */
+
+.table-bordered td,
+.table-bordered th {
+    border-bottom: 1px solid #e3e6f0;
+
+}
+
+.bod-right-none {
+    border-right: none !important;
+}
+
+.bod-right-left-top-none {
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: 1px solid #F3F3F4 !important;
+}
+.topbar .dropdown-list .dropdown-header {
+    background-color: #E76A32;
+    border: 1px solid #E76A32;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+
+.text-primary1 {
+    color: #42644B;
+}
+
+.badge-clicked {
+    background-color: #E3FFA8;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.badge-returned {
+    background-color: #FFA98D;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.badge-delivered {
+    background-color: #80FFA1;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.badge-executed {
+    background-color: #CBD3FF;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #F3F3F4;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border-bottom: 1px solid #F3F3F4;
+}
+
+.t-head {
+    color: #878588;
+    font-weight: 600;
+}
+
+.dataTables_info,
+.dataTables_length {
+    color: #000;
+    font-weight: 700;
+}
+.btn-block{
+    background-color: #FAFAFA;
+    color: #42644B;
+    text-align: left;
+    font-size: .85rem;
+    padding-left: 10px !important;
+}
+.btn-primary{
+   background-color: rgba(231, 106, 50) !important;
+   border-color:  rgba(231, 106, 50) !important;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(231, 106, 50) !important; 
+    border-color: rgba(231, 106, 50) !important;
+}
+.setting-img {
+    background-image: url(../img/icons/setting-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Use 100% for both width and height */
+   
+}
+.sidebar .nav-item {
+    position: relative;
+    margin-left: 10px !important;
+    padding-left: 5px !important;
+    margin-bottom: 5px;
+}
+@media (min-width: 768px){
+.sidebar {
+    width: 19rem!important;
+}
+}
+
+@media (min-width: 765px){
+.sidebar .nav-item .nav-link {
+    text-align: left !important;
+    padding: 0.75rem 1rem;
+    width: auto;
+}
+}
+@media (max-width: 768px){
+    .topbar #sidebarToggleTop1 {
+        display: none;
+    }
+    .sidebar .nav-item .nav-link {
+        text-align: center;
+        padding: 0.75rem 1rem;
+        width: auto;
+    }
+    .card-2{
+        margin: 1px !important;
+     }
+    }
+.topbar #sidebarToggleTop1 {
+    height: 2.5rem;
+    width: auto !important;
+}
+.btn-link {
+    font-weight: 400;
+    color: #E76A32 !important;
+    text-decoration: none;
+}
+.next{
+    background-color: rgba(231, 106, 50, 0.2) !important;
+    border-radius: 0.5rem;
+    margin-left: 15px;
+}
+.previous{
+    background-color: rgba(231, 106, 50, 0.2) !important;
+    border-radius: 0.5rem;
+    margin-right: 25px;
+}
+.page-link{
+    font-weight: 700;
+    font-size: 12px;
+}
+div.dataTables_wrapper div.dataTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 700 !important;
+}
+.dataTables_info{
+    font-size: 12px;
+}
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 1.1rem !important;
+}
+.topbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(231, 106, 50, 0.2);
+    color: #000;
+}
+.topbar.navbar-light .navbar-nav .nav-item .nav-link:focus {
+    background-color: #F18A5C;
+    color: #000;
+}
+.card-2{
+   margin: 50px;
+}
+#dataTable{
+    font-size: 14px;
+}
+.topbar #sidebarToggleTop:hover {
+    background-color: rgba(231, 106, 50, 0.2);
+    border-color: rgba(231, 106, 50, 0.2);
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(231, 106, 50, 0.2);
+}
+/* .col-sm-12, .col-md-4{
+ 
+    margin-right: 10px;
+}
+#dataTable_paginate{
+    border-right: 1px solid #e3e6f0;
+    padding-right: 10px;
+  
+
+}
+.dataTables_length{
+    border-right: 1px solid #e3e6f0;
+    margin-right: -22px;
+}
+.dataTables_info{
+    margin-left: 6px;
+} */
+.card-gray{
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 0.75rem;
+}
+.colo-orange{
+    color: #E76A32;
+}
+
+  .black{
+    color: #000;
+  }
+  .float-right{
+    float: right;
+  }
+  .text-right{
+    text-align: right;
+  }
+  .back-permi{
+    background-color: #B0B0B0;
+    border-radius: 0.75rem;
+    color: #000;
+  }
+  .back-edit{
+    background-color:   #f36b2c;
+    border-radius: 0.75rem;
+    color: #fff;
+  }
+
+  .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #F18A5C;
+    border-color: #F18A5C;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(231, 106, 50,.5);
+}
+.float-left{
+float: left;
+}
+.text-left{
+    text-align: left;
+    }
+.bod-rad{
+    border-radius: 0.75rem;
+}
+.input-group-text {
+    background-color: #fff;
+    border-radius: 0.75rem;
+  
+}
+.left-bod{
+    border-right: none;
+}
+ .custom-control-input:checked {
+    accent-color: #f36b2c;
+    border-radius: 1rem;
+  }
+
+  .font-s{
+    font-size: 14px;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow:0 0 0 0.2rem rgba(231, 106, 50,.5) !important;
+}
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    color: #fff;
+    background-color: #f36b2c;
+    border-color: #f36b2c;
+}
+ 
+ .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #f36b2c; /* Change the background color to your desired color */
+    border-color: #f36b2c; /* Optional: If you want to change the border color as well */
+  }
+ 
+ 
+  .btn-secondary:hover {
+    color: #000000;
+    background-color: #B0B0B0 !important;
+    border-color: #B0B0B0 !important;
+}
+.btn-secondary:focus {
+    color: #000000;
+    background-color: #B0B0B0 !important;
+    border-color: #B0B0B0 !important;
+}
+.permission-color-gray{
+    color: #878588;
+}
+@media (min-width: 768px){
+.sidebar .nav-item .nav-link span {
+    font-size: 0.85rem !important;
+    display: inline;
+}}
+.nav-head{
+    font-size: 30px;
+}
+.img-head{
+    width: 45px;
+}
+
+.card-colr{
+    background-color: #F3E2DB;
+    border:none;
+}
+.card-font{
+    font-size: 14px;
+}
+.card-font-2{
+    color: #000;
+    font-size: 26px;
+}
+
+.table-bod-fo{
+    border: none;
+    font-size: 14px;
+}
+.nav-link:hover {
+    background-color: rgba(231, 106, 50, 0.2) !important;
+    border-radius: 0.8rem;
+    margin-right: 10px;
+}
